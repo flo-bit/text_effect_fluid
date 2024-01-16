@@ -1,6 +1,8 @@
-# Text effect: Fluid Simulation
+# Text effect: Fluid Simulation demo
 
-![cover](cover.png)
+[Live demo](https://flo-bit.github.io/text_effect_fluid/) (currently sometimes breaks on first open, just reload once or twice)
+
+[![cover](cover.png)](https://flo-bit.github.io/text_effect_fluid/)
 
 Inspired by the current (Jan 2024) version of [the lumalabs homepage](https://lumalabs.ai/) (obviously, their effect looks *way* better, than my quick and dirty version):
 
@@ -15,38 +17,38 @@ Adjusted version of this awesome [WebGL Fluid Simulation](https://github.com/Pav
 - Add this to your html
 
 ```html
-    <div id="canvasContainer">
-        <canvas></canvas>
-        <canvas id="maskCanvas"> </canvas>
-    </div>
+<div id="canvasContainer">
+    <canvas></canvas>
+    <canvas id="maskCanvas"> </canvas>
+</div>
 
-    <script src="./script.js"></script>
+<script src="./script.js"></script>
 ```
 
 - Add this styling
 
 ```css
-    html,
-    body {
-        overflow: hidden;
-        background-color: #000;
-    }
+html,
+body {
+    overflow: hidden;
+    background-color: #000;
+}
 
-    body {
-        margin: 0;
-    }
+body {
+    margin: 0;
+}
 
-    #canvasContainer {
-        position: relative;
-        width: 100vw;
-        height: 100vh;
-    }
+#canvasContainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
 
-    canvas {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-    }
+canvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
 ```
 
 
