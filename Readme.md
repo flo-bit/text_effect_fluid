@@ -10,6 +10,10 @@ Inspired by the current (Jan 2024) version of [the lumalabs homepage](https://lu
 
 Adjusted version of this awesome [WebGL Fluid Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation).
 
+## How it works
+
+I wrote a short [blog post](https://flobit.substack.com/p/how-i-recreated-this-awesome-text) about my approach.
+
 ## Usage
 
 - Add `script.js` and `LDR_LLL1_0.png` to your project
